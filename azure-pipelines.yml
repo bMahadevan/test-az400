@@ -7,7 +7,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  -group: HelloVariables
+  - group: HelloVariables
 
 steps:
 - script: 
