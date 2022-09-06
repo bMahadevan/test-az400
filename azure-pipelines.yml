@@ -7,10 +7,8 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  solution: '**/*.sln'
-  buildPlatform: 'Any CPU'
-  buildConfiguration: 'Release'
+  group: HelloVariables
 
 steps:
 - script: 
-    echo $(buildPlatform)
+    echo $(buildParam)
